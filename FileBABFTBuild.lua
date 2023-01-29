@@ -1,7 +1,7 @@
 local hook
 hook = hookfunction(game.HttpGet,function(self,url,...)
     if tostring(url) == "https://raw.githubusercontent.com/StenDirt/Trash-Game/main/UI.lua" then
-        return hook(self,"https://raw.githubusercontent.com/JustAP1ayer/Script/main/BuildABoat/BackupLib.lua",...)
+        return hook(self,"https://raw.githubusercontent.com/JustAP1ayer/BABFTAUTOBACKUP/main/IgnoreLIB.lua",...)
     end
     return hook(self,url,...)
 end)
